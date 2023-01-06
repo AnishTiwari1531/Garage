@@ -7,7 +7,7 @@ app.use(multer().any());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-mongoose.connect("mongodb+srv://soumya-db:afdbyZgt3CyQporD@cluster0.gvqtfzu.mongodb.net/GaragePlug",
+mongoose.connect("mongodb+srv://Anish_Tiwari1531:SINGH1531@cluster0.40jpapr.mongodb.net/Garage",
                     { useNewUrlParser: true})
 .then(()=>console.log("Successfully Connected with Database"))
 .catch((err)=>console.log(err))
